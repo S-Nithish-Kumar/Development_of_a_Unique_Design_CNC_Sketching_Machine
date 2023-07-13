@@ -5,13 +5,13 @@
    <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#3-impact-of-solving-the-problem">Impact of Solving the Problem</a></li>
    <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#4-proposed-design">Proposed Approach</a></li>
    <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#5-technical-specifications">Technical specifications</a></li>
-   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#6-final-setup">Implementation</a>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#6-implementation">Implementation</a>
       <ul>
            <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#hardware-assembly">Hardware Assembly</a></li>
            <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#software-integration">Software Integration</a></li>
       </ul>
    </li>
-   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#7-implementation">Final Setup</a></li>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#7-final-setup">Final Setup</a></li>
    <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#output">Output</a></li>
    <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#results">Results</a></li>
    <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#problems-and-troubleshooting">Problems and Troubleshooting</a></li>
