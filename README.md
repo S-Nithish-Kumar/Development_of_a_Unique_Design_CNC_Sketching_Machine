@@ -31,13 +31,13 @@
 Modeling has been done using Fusion 360 software. Figure 1 shows the Isometric view of the 3D design of the machine. The design is simple and ergonomic, so in the event of the failure of any component, the component could be easily replaced since most of the components have temporary joints. The outer structure and the bearings are joined for better robustness.
 
 <p align="center">
-<img src="images/isometric_view.jpg" height="60%" width="60%">
+<img src="images/isometric_view.jpg" height="40%" width="40%">
 </p>
 
 2D sketches are generated from the 3D model using Fusion 360 software
 
 <p align="center">
-<img src="images/2D_sketch.png" height="60%" width="60%">
+<img src="images/2D_sketch.png" height="90%" width="90%">
 </p>
 
 ### 5. Technical Specifications:
@@ -46,34 +46,34 @@ Tables 1 and 2 consist of the mechanical and electronic components used in the p
 
 ### 6. Implementation:
 #### Hardware assembly:
-##### Step 1: Creating outer body
+***Step 1:*** Creating outer body
 <p align="center">
-<img src="images/implementation_step1_outer_body.png" height="110%" width="110%">
+<img src="images/implementation_step1_outer_body.png" height="70%" width="70%">
 </p>
 
-##### Step 2: Fixing bearings
+***Step 2:*** Fixing bearings
 <p align="center">
-<img src="images/implementation_step2_fitting_bearings.png" height="110%" width="110%">
+<img src="images/implementation_step2_fitting_bearings.png" height="70%" width="70%">
 </p>
 
-##### Step 3: Boring holes
+***Step 3:*** Boring holes
 <p align="center">
-<img src="images/implementation_step3_boring_holes.png" height="110%" width="110%">
+<img src="images/implementation_step3_boring_holes.png" height="70%" width="70%">
 </p>
 
-##### Step 4: Adding support structures
+***Step 4:*** Adding support structures
 <p align="center">
-<img src="images/implementation_step4_added_supports.png" height="110%" width="110%">
+<img src="images/implementation_step4_added_supports.png" height="70%" width="70%">
 </p>
 
-##### Step 5: Assembly of axis of feed drive system
+***Step 5:*** Assembly of axis of feed drive system
 <p align="center">
-<img src="images/implementation_step5_assembly_of_axis_feed_drive_system.png" height="110%" width="110%">
+<img src="images/implementation_step5_assembly_of_axis_feed_drive_system.png" height="70%" width="70%">
 </p>
 
 #### Software Integration:
 <p align="center">
-<img src="images/overall_working_flowchart.jpg" height="60%" width="60%">
+<img src="images/overall_working_flowchart.jpg" height="30%" width="30%">
 </p>
 <p align="center">Figure 3 Overall working flowchart</p>
 
@@ -92,13 +92,13 @@ GRBL is a Firmware that is uploaded to the Arduino Microcontroller. UGS sends th
 The image below shows the F-Engrave window. The required text can be entered in the Input text box. Text Font properties and G-code properties can be changed as per the requirement. Once everything is done, click on File and Save as G-code.
 
 <p align="center">
-<img src="images/F_engrave_text.png" height="90%" width="90%">
+<img src="images/F_engrave_text.png" height="100%" width="100%">
 </p>
 
 The picture below shows the F-Engrave window. For images to be imported into F-Engrave, the format must be .dxf. So, the images must be converted into .dxf format before importing them into F-engrave. Image properties and G-code properties can be given as per the requirement, and G-code can be saved.
 
 <p align="center">
-<img src="images/F_engrave_image_import.png" height="60%" width="60%">
+<img src="images/F_engrave_image_import.png" height="100%" width="100%">
 </p>
 
 ##### E. G-code Conversion:
@@ -106,49 +106,49 @@ There are seven steps to be followed for setting up the UGS
 ***1) Connection:*** Connection must be established between the controller and the computer.
 
 <p align="center">
-<img src="images/UGS_step1_connection.png height="80%" width="80%">
+<img src="images/UGS_step1_connection.png" height="90%" width="90%">
 </p>
 
 ***2) Import settings:*** Any setting saved previously can be imported.
 
 <p align="center">
-<img src="images/UGS_step2_import_settings.png" height="80%" width="80%">
+<img src="images/UGS_step2_import_settings.png" height="90%" width="90%">
 </p>
 
 ***3) Motor wiring:*** If the motor is connected in the reverse direction, the direction could be changed in the software.
 
 <p align="center">
-<img src="images/state_of_units_mode_plane.png" height="80%" width="80%">
+<img src="images/UGS_step3_motor_wiring.png" height="90%" width="90%">
 </p>
 
 ***4) Step calibration:*** This is a very important step. Since the pitch of the lead screw varies, step calibration must be done to achieve the desired linear displacement.
 
 <p align="center">
-<img src="images/UGS_step4_step_calibration.png" height="80%" width="80%">
+<img src="images/UGS_step4_step_calibration.png" height="90%" width="90%">
 </p>
 
 ***5) Limit Switches:*** Hard limit switches can be enabled if required.
 
 <p align="center">
-<img src="images/UGS_step5_limit_switches.png" height="80%" width="80%">
+<img src="images/UGS_step5_limit_switches.png" height="90%" width="90%">
 </p>
 
 ***6) Homing:*** Homing is a method of finding absolute machine coordinates. But hard limit switches are mandatory for homing.
 
 <p align="center">
-<img src="images/UGS_step6_homing.png" height="80%" width="80%">
+<img src="images/UGS_step6_homing.png" height="90%" width="90%">
 </p>
 
 ***7) Soft limits:*** Soft limits switches can also be set if required. But Homing needs to be enabled before enabling soft limits.
 
 <p align="center">
-<img src="images/UGS_step7_soft_limits.png" height="80%" width="80%">
+<img src="images/UGS_step7_soft_limits.png" height="0%" width="90%">
 </p>
 
 Various states like Units, Distance Mode, Work Offset, Active Plane which should be checked before starting the machine.
 
 <p align="center">
-<img src="images/state_of_units_mode_plane.png" height="80%" width="80%">
+<img src="images/state_of_units_mode_plane.png" height="70%" width="70%">
 </p>
 
 Once these steps are completed, G-code can be imported into the UGS. To import G-code, click on File and Open.
@@ -156,14 +156,14 @@ Once these steps are completed, G-code can be imported into the UGS. To import G
 Once the G-code has been imported, the initial position can be set using jog mode. After setting the initial position, the play button can be pressed to start the sketching. Figure 8 shows the UGS Window after all the initials have been entered.
 
 <p align="center">
-<img src="images/UGS_window_after_set_up.png" height="90%" width="90%">
+<img src="images/UGS_window_after_set_up.png" height="100%" width="100%">
 </p>
 
 ### 7. Final Setup:
 The picture below is the final setup. The yellow bounding box is the location where the tools can be mounted. For sketching, a sketch will be mounted here.
 
 <p align="center">
-<img src="images/final_setup.png" height="90%" width="90%">
+<img src="images/final_setup.png" height="70%" width="70%">
 </p>
 
 ### 8. Output:
