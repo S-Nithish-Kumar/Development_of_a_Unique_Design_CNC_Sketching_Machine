@@ -3,7 +3,7 @@
    <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#1-problem-statement">Problem Statement</a></li>
    <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#2-objectives">Objectives</a></li>
    <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#3-impact-of-solving-the-problem">Impact of Solving the Problem</a></li>
-   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#4-proposed-approach">Proposed Approach</a></li>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#4-proposed-design">Proposed Approach</a></li>
    <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#5-technical-specifications">Technical specifications</a></li>
    <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#6-final-setup">Implementation</a>
       <ul>
