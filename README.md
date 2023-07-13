@@ -1,275 +1,189 @@
-<h2 align="center">Demonstration video</h2>
-<p align="center">
-<a href="https://www.youtube.com/watch?v=tNjcQhkGpjM&t=00s"><img src="images/thumbnail.jpg" height="70%" width="70%"></a>
-</p>
-
 ## Contents:
 <ol>
-   <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#1-problem-statement">Problem Statement</a></li>
-   <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#2-objectives">Objectives</a></li>
-   <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#3-impact-of-solving-the-problem">Impact of Solving the Problem</a></li>
-   <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#4-information-processing-model">Information Processing Model</a></li>
-   <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#5-existing-products">Existing Products</a></li>
-   <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#6-proposed-approach">Proposed Approach</a></li>
-   <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#7-implementation">Implementation</a></li>
-   <ul>
-      <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#circuit-diagram">Circuit Diagram</a></li>
-      <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#working">Working</a></li>
-      <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#microphone-signal-filtering">Microphone Signal Filtering</a></li>
-      <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#component-housing">Component Housing</a></li>
-   </ul>
-   <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#8-testing-and-validation">Testing and Validation</a></li>
-   <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#9-problems-and-troubleshooting">Problems and Troubleshooting</a></li>
-   <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#10-results-and-conclusion">Results and Conclusion</a></li>
-   <li><a href="https://s-nithish-kumar.github.io/Biofeedback_device_for_speech_modulation/#11-references">References</a></li>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#1-problem-statement">Problem Statement</a></li>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#2-objectives">Objectives</a></li>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#3-impact-of-solving-the-problem">Impact of Solving the Problem</a></li>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#4-proposed-approach">Proposed Approach</a></li>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#5-technical-specifications">Technical specifications</a></li>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#6-final-setup">Final Setup</a></li>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#7-implementation">Implementation</a></li>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#output">Output</a></li>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#working">Working</a></li>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#results">Results</a></li>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#problems-and-troubleshooting">Problems and Troubleshooting</a></li>
+   <li><a href="https://s-nithish-kumar.github.io/Development_of_a_Unique_Design_CNC_Sketching_Machine/#11-references">References</a></li>
 </ol>
 
 ### 1. Problem Statement:
-- Neurodegenerative diseases such as Parkinson’s disease can cause vocal disorders leading to reduced
-motor control for speech modulation due to limited physical sensations of speech.
-+ The limited physical sensations of speech are due to the decline in Dopamine responsible for cognition.
+- Commercially available Sketching Machines have smaller work areas, which makes them unsuitable for applications such as poster making.
+- Sketching Machines that have a larger work area use two motors for movement along the x-axis, which increases the power consumption and the cost of the machine.
 
 ### 2. Objectives:
-<ul>
-<li><div align="justify">People with Neuro vocal disorders seem to modulate their voice better during speech exercises under the
-supervision of a therapist. It shows that people with such a disorder can respond well to feedback provided
-with an assistive device that will substitute for the therapist, enabling individuals to modulate their voices.</div></li>
-<li><div align="justify">This project aims to design and develop a prototype for providing vibrotactile feedback based on ambient
-noise to modulate the speech intensity of an individual.</div></li>
-</ul>
+- To come up with a unique design for a Sketching Machine to replace the need for two motors with a single motor to reduce the power consumption.
+- To develop a CNC Sketching Machine with less wear and tear and easy serviceability.
+- Ensure the machine has reasonable  accuracy and cycle time.
 
 ### 3. Impact of Solving the Problem:
-- Parkinson's disease is a widespread neurodegenerative disorder affecting millions of individuals worldwide.
-In the United States alone, it is estimated that approximately one million people are currently living with
-Parkinson's disease. However, this number is just a fraction of the global prevalence, as the disease impacts
-an estimated ten million individuals worldwide.
-+ According to research, 89 percent of people with Parkinson's disease (PD) have speech and vocal impairments,
-including hoarseness, breathiness, and a quiet, monotonous voice.
-- A biofeedback device to module speech will help approximately 90 percent of the population with Parkinson’s
-disease to improve their speech modulation.
-* The device is not only useful for people with speech impairments related to PD but is also functional for
-other vocal disorders with calibration as per the need.
+- This project can fill the gap between power consumption and the work area.
+- Provides flexibility for other applications such as CNC milling and laser cutting, where the sketch can be replaced with appropriate tools.
 
-### 4. Information Processing Model:
-#### Information Processing Model – For a normal human being:
-<p align="center">
-<img src="images/information_processing_model_without_parkinson_disease.png" height="110%" width="110%">
-</p>
-<p align="center">Figure 1 Information processing model for a normal human being</p>
-
-#### Information processing model - For people with Parkinson’s disease:
-<p align="center">
-<img src="images/information_processing_model_with_parkinson_ disease.png" height="110%" width="110%">
-</p>
-<p align="center">Figure 2 Information processing model with Parkinson's disease</p>
-
-
-### 5. Existing Products:
-#### SpeechVive:
-<p align="center">
-<img src="images/SpeechVive.jpg" height="60%" width="60%">
-</p>
-<p align="center">Figure 3 SpeechVive</p>
-- [SpeechVive](http://www.speechvive.com/) is a small, portable device designed to improve speech and voice production in individuals with
-Parkinson’s disease. The programmable device is worn behind the ear, like a hearing aid. When the user speaks,
-a babbling noise plays in their ear, acting upon a reflex that causes them to speak louder. Because the device
-does not require training, it can be successfully used by people with mild cognitive impairment or reduced memory.
-+ SpeechVive is designed to improve the vocal loudness and/or speech clarity of individuals with hypophonia,
-a common motor speech symptom in people diagnosed with Parkinson’s disease and related diagnoses.
-* The SpeechVive device detects when the user speaks and plays background noise, which is an autonomous cue to
-elicit louder speech through the Lombard Effect. The Lombard Effect is a well-known phenomenon where speakers
-naturally speak louder under background noise. When the user does not speak, SpeechVive does not deliver babble
-noise to the ear.
-
-#### Drawbacks of SpeechVive:
-- SpeechVive is intended to increase the user’s voice level through the Lombard effect, and it cannot provide
-feedback to prompt the user to reduce their volume if it’s not at the appropriate level for that ambient condition.
-+ High cost.
-+ Visible to others.
-
-#### Hi-VOLT:
-<p align="center">
-<img src="images/Hi_VOLT_voice_on_light_bracelet.jpg" height="45%" width="45%">
-</p>
-<p align="center">Figure 4 Hi-VOLT</p>
-
-- [Hi-VOLT® 4 PD](https://voiceaerobicsdvd.com/product/hi-volt-voice-on-light-bracelet/) is a calibrated, voice-activated light bracelet that can be used by people with PD in and out of
-speech and physical therapy. Feedback from the Hi-VOLT® voice-on-light can help the user gauge the level of loudness
-required to be understood by others. Since the light is calibrated, users only have to speak loud enough to activate
-the light.
-+ Hi-VOLT® 4 PD was developed by a speech-language pathologist, Mary Spremulli, and clinical data collected in her
-practice over three years on 63 patients has shown that at the time of the initial evaluation, most patients were able
-to attain a 7.5 dB increase in sound pressure level in response to the cue: “speak loud enough to activate the light”.
-Patients using the Hi-VOLT® light during home practice report that it helps them judge if they are reaching their goals
-for a more normal loudness.
-* These products are economically priced and reinforce the principles that patients learn in many sessions of prior
-voice treatment and now.
-
-#### Drawbacks of Hi-VOLT:
-- The battery of the device lasts only for 48 hours and is not rechargeable.
-- Ambient noise level is not considered for providing feedback.
-- Visible to others.
-
-### 6. Proposed Approach:
-- Two microphones are used. One microphone will capture the user’s voice, and another will capture ambient noise.
-- The signals from these two microphones will be filtered using a low-pass filter to remove spikes, and the filtered
-data will be processed to provide feedback to the user.
-+ A vibration motor is used to provide vibro-tactile feedback to the user. The vibration motor is tuned to produce
-two different types of vibrations. Intermittent vibration prompts the user to reduce the volume, and continuous vibration
-makes the user increase their voice.
-* All the components will be placed inside a shoulder brace that can be worn on either shoulder.
-
-### 7. Implementation:
-#### Circuit Diagram:
-<p align="center">
-<img src="images/circuit_diagram.jpg" height="100%" width="100%">
-</p>
-<p align="center">Figure 5 Circuit diagram</p>
-
-- The circuit diagram above shows the components used in the device.An adjustable-gain microphone is used as 
-a user microphone. The gain of the user microphone is optimized so that it will only capture the user's voice 
-and eliminate ambient noise.
-+ Though the gain is optimized, the user's microphone will capture some background noise, but it is negligible.
-A bone conduction microphone with better sensitivity can help overcome this problem. The bone conduction microphone
-can be placed on top of the collarbone, where the sensitivity is better.
-* An Auto-gain microphone is used as an ambient microphone. The gain of this microphone adjusts automatically and
-is directly proportional to the distance of the sound source. Hence, this microphone is effective at capturing
-background noise that is far away.
-- Buttons are provided to adjust the intensity of the vibration motor.
-
-#### Working:
-<p align="center">
-<img src="images/overall_sequence_flow_diagram.jpg" height="110%" width="110%">
-</p>
-<p align="center">Figure 6 Overall sequence flow diagram</p>
-
-- Once the device is turned on, the ambient mic will capture background noise. When the user starts speaking,
-the captured background noise is used for comparison with the user’s voice level and provides feedback. The
-sequence flow diagram above illustrates the feedback logic of the device.
-+ The logic has three different states: high, normal, and low for the user’s voice level, and two discrete
-states: noise and no noise for background noise.
-* When the user speaks at a low volume, irrespective of ambient noise, continuous vibrotactile feedback will
-be generated.
-+ When there is no background noise and the user converses in a normal voice, no feedback is provided. But if
-the user is conversing in a normal voice in the presence of background noise, continuous feedback will be provided.
-- If the user speaks at a high volume in the absence of ambient sound, intermittent vibrotactile feedback will be
-provided, prompting the user to reduce their volume. But if ambient noise is present and the user speaks at a high
-volume, feedback is not provided.
+### 4. Proposed Design:
+Modeling has been done using Fusion 360 software. Figure 1 shows the Isometric view of the 3D design of the machine. The design is simple and ergonomic, so in the event of the failure of any component, the component could be easily replaced since most of the components have temporary joints. The outer structure and the bearings are joined for better robustness.
 
 <p align="center">
-<img src="images/detailed_sequence_flow_diagram.JPG" height="110%" width="110%">
+<img src="images/isometric_view.jpg" height="60%" width="60%">
 </p>
-<p align="center">Figure 7 Detailed sequence flow diagram</p>
 
-#### Microphone Signal Filtering:
-Signals from both user and ambient microphones are filtered using first-order low-pass filters to remove noise 
-and avoid sudden spikes that could affect the feedback of the device.
-<p align="center">
-<img src="images/user_mic_raw_and_filtered_data.jpg" height="110%" width="110%">
-</p>
-<p align="center">Figure 8 Raw and filtered user microphone signals</p>
+2D sketches are generated from the 3D model using Fusion 360 software
 
 <p align="center">
-<img src="images/ambient_mic_raw_and_filtered_data.jpg" height="110%" width="110%">
+<img src="images/2D_sketch.png" height="60%" width="60%">
 </p>
-<p align="center">Figure 9 Raw and filtered ambient microphone signals</p>
 
-#### Component Housing:
+### 5. Technical Specifications:
+Tables 1 and 2 consist of the mechanical and electronic components used in the project, along with the specifications of each component.
+
+
+### 6. Implementation:
+#### Hardware assembly:
+##### Step 1: Creating outer body
 <p align="center">
-<img src="images/component_housing.jpg" height="50%" width="50%">
+<img src="images/implementation_step1_outer_body.png" height="110%" width="110%">
 </p>
-<p align="center">Figure 10 Component housing</p>
 
-As shown in the figure above, all the components are placed inside 3D printed boxes.
+##### Step 2: Fixing bearings
 <p align="center">
-<img src="images/shoulder_brace.jpg" height="40%" width="40%">
+<img src="images/implementation_step2_fitting_bearings.png" height="110%" width="110%">
 </p>
-<p align="center">Figure 11 Shoulder brace</p>
 
-- The shoulder brace shown above is modified to incorporate the device onto the interior surface of the
-brace, ensuring that it remains hidden from view. Additionally, the device is removable, allowing users
-to detach it during washing, and the shoulder brace is lightweight and flexible to make the user comfortable.
-+ The box containing the vibration motor, Battery Management System, ambient microphone, and controller will
-be placed inside the shoulder brace, and the brace can be worn on either shoulder.
-* The user's microphone placed on top of the collarbone will pick up the user's vocal intensity.
-+ Signals from both microphones are filtered using a low-pass filter to avoid spikes. Both these signals are
-used in determining the user's and ambient sound levels for providing feedback.
-- The intensity of the vibration motor can be adjusted using the buttons provided based on the user’s convenience.
-The device comes with a rechargeable battery and a battery life of 12 hours on a single charge.
-* The primary aim of designing the device is to ensure user-friendliness and accessibility with minimal effort
-and disturbance to the wearer. The shoulder brace is adjustable to accommodate all body types comfortably.
+##### Step 3: Boring holes
+<p align="center">
+<img src="images/implementation_step3_boring_holes.png" height="110%" width="110%">
+</p>
+
+##### Step 4: Adding support structures
+<p align="center">
+<img src="images/implementation_step4_added_supports.png" height="110%" width="110%">
+</p>
+
+##### Step 5: Assembly of axis of feed drive system
+<p align="center">
+<img src="images/implementation_step5_assembly_of_axis_feed_drive_system.png" height="110%" width="110%">
+</p>
+
+#### Software Integration:
+<p align="center">
+<img src="images/overall_working_flowchart.jpg" height="60%" width="60%">
+</p>
+<p align="center">Figure 3 Overall working flowchart</p>
+
+Figure 4 shows the flowchart of the entire process. First, the sketch will be converted to G-codes using CAM software. Once the G-codes are ready, the codes will be transmitted to the Microcontroller using interfacing software. The Microcontroller will convert the G-codes to electrical pulses using the GRBL firmware. The Motor driver will provide the required pulses to the motor for it to rotate. The synchronous movement of the motors produces a 2D sketch on the paper.
+
+##### A. CAM Software:
+F-engrave CAM software is used, which converts text and images into G-codes. Images in the DXF format can be imported into the software for conversion. Parameters such as height, width, thickness, z-safe, plunge rate, and feed rate can be provided in the software. Once the parameters are given, the image can be converted to G-codes.
+
+##### B. Microcontroller Interfacing Software:
+The Universal G-code Sender (UGS) is an interface software that interfaces G-codes with the microcontroller. The G-code generated from the F-engrave software needs to be imported into the UGS software. Certain parameters of the lead screw, like linear movement per 125 pulses, need to be entered into the software. The software can automatically calibrate according to the entered value. Even soft limits can be set using the software. Once all these steps are done, using Jog mode, all the axes of the machine will be set to their proper positions. Then the program can be started.
+
+##### C. Firmware:
+GRBL is a Firmware that is uploaded to the Arduino Microcontroller. UGS sends the G-code to the Arduino. GRBL will help to convert each line of G-code into electrical pulses and send those pulses to the CNC shield, which then controls the Stepper motors so that the desired motion can be achieved.
+
+##### D. Input:
+The image below shows the F-Engrave window. The required text can be entered in the Input text box. Text Font properties and G-code properties can be changed as per the requirement. Once everything is done, click on File and Save as G-code.
 
 <p align="center">
-<img src="images/shoulder_brace_under_regular_attire.jpg" height="40%" width="40%">
+<img src="images/F_engrave_text.png" height="90%" width="90%">
 </p>
-<p align="center">Figure 12 Shoulder brace under regular attire</p>
 
-As shown in the figure above, the shoulder brace is hidden under regular attire.
+The picture below shows the F-Engrave window. For images to be imported into F-Engrave, the format must be .dxf. So, the images must be converted into .dxf format before importing them into F-engrave. Image properties and G-code properties can be given as per the requirement, and G-code can be saved.
 
-### 8. Testing and Validation:
-- The device was tested with four people with varying voice levels.
-- The user is asked to position the user microphone at the appropriate position near the face, and the ambient
-microphone is placed on the shoulder. The user is made to speak at three different voice levels: low, medium,
-and high.
--  As said before, all the users have significantly varying voice levels, and the device can provide proper
-feedback to different users with varying voice and ambient sound levels. It showed that the device could
-be used by a wide.
-+ However, tuning the device for each specific user enhances the accuracy of the feedback provided by the device.
+<p align="center">
+<img src="images/F_engrave_image_import.png" height="60%" width="60%">
+</p>
 
-### 9. Problems and Troubleshooting:
-- The auto-gain microphone, which is used for capturing background noise, provides negative values for certain
-periods of time when there is a sudden change in the sound level. This has a huge negative impact on feedback.
-To overcome this problem, a counter is added, which makes the controller more stable, but this increases the
-feedback delay to some extent.
-+ Though the gain of the user microphone is set to minimum to capture only the user’s voice, at higher background
-noise levels it captures some of the ambient noise, which affects the feedback. The user's microphone is surrounded
-by a sponge material to reduce the intensity of the noise captured by it.
-* Even if the user speaks in a normal voice, at the start and end of each word, the voice level falls below the
-low band level of the controller. This triggers the controller to provide false feedback. Counters are used to
-overcome this problem, but with a slight increase in feedback delay.
+##### E. G-code Conversion:
+There are seven steps to be followed for setting up the UGS
+***1) Connection:*** Connection must be established between the controller and the computer.
 
-### 10. Results and Conclusion:
-- The device was found to perform with reasonable accuracy and delay for a range of people with varying voice levels.
-- Replacing the electret microphone with a bone conduction microphone for the receiving user’s voice will help in
-avoiding ambient noise.
-+ From the testing, it has been found that tuning the device for each user will improve the accuracy and response
-time of the device.
-* The shoulder is tested with people of varying body sizes and shapes and is found to be comfortable for
-day-to-day activities.
+<p align="center">
+<img src="images/UGS_step1_connection.png height="80%" width="80%">
+</p>
+
+***2) Import settings:*** Any setting saved previously can be imported.
+
+<p align="center">
+<img src="images/UGS_step2_import_settings.png" height="80%" width="80%">
+</p>
+
+***3) Motor wiring:*** If the motor is connected in the reverse direction, the direction could be changed in the software.
+
+<p align="center">
+<img src="images/state_of_units_mode_plane.png" height="80%" width="80%">
+</p>
+
+***4) Step calibration:*** This is a very important step. Since the pitch of the lead screw varies, step calibration must be done to achieve the desired linear displacement.
+
+<p align="center">
+<img src="images/UGS_step4_step_calibration.png" height="80%" width="80%">
+</p>
+
+***5) Limit Switches:*** Hard limit switches can be enabled if required.
+
+<p align="center">
+<img src="images/UGS_step5_limit_switches.png" height="80%" width="80%">
+</p>
+
+***6) Homing:*** Homing is a method of finding absolute machine coordinates. But hard limit switches are mandatory for homing.
+
+<p align="center">
+<img src="images/UGS_step6_homing.png" height="80%" width="80%">
+</p>
+
+***7) Soft limits:*** Soft limits switches can also be set if required. But Homing needs to be enabled before enabling soft limits.
+
+<p align="center">
+<img src="images/UGS_step7_soft_limits.png" height="80%" width="80%">
+</p>
+
+Various states like Units, Distance Mode, Work Offset, Active Plane which should be checked before starting the machine.
+
+<p align="center">
+<img src="images/state_of_units_mode_plane.png" height="80%" width="80%">
+</p>
+
+Once these steps are completed, G-code can be imported into the UGS. To import G-code, click on File and Open.
+
+Once the G-code has been imported, the initial position can be set using jog mode. After setting the initial position, the play button can be pressed to start the sketching. Figure 8 shows the UGS Window after all the initials have been entered.
+
+<p align="center">
+<img src="images/UGS_window_after_set_up.png" height="90%" width="90%">
+</p>
+
+### 7. Final Setup:
+The picture below is the final setup. The yellow bounding box is the location where the tools can be mounted. For sketching, a sketch will be mounted here.
+
+<p align="center">
+<img src="images/final_setup.png" height="90%" width="90%">
+</p>
+
+### 8. Output:
+The pictures below are the sketches drawn using the machine.
+
+### 9. Results:
+Table 3 shows the cycle time for drawing each picture. As the size of the picture increases, the cycle time will also increase accordingly. The waviness in the picture is due to the bend in the y-axis lead screw and could be considerably eliminated by replacing the lead screw with a proper one. The cycle time is high because rapid traverse could not be achieved as the torque required is high. The cycle time can be reduced by upgrading the motor, if required.
+
+Table 4 shows the comparison of work area, power consumption, and cost between the existing products and this product. Clearly, the work area of the existing products is small compared to our machine. Despite the work area being small, the price of these products is also high, and as the work area increases, the price of the product shoots up. Though in this research work the work area has been increased, power consumption has also been managed to some extent.
+
+### 10. Problems and Troubleshooting:
+- Though Light Gauge Steel is used for fabrication, the weight of the machine increased considerably more than expected. The converted g-code from the F-engrave software has the g-code command for rapid traverse. Due to the added weight and limited torque of the x-axis motor, rapid traverse is not possible, and the motor doesn’t spin when a rapid traverse command is provided. To overcome this problem, all the rapid traverse g-code commands have been converted to feed rate traverse g-code commands (G00 to G01) using a text editor.
++ The rods and leads were not smooth enough to traverse the ball bearings and screws and are smoothed by rubbing over the surface using emery sheets.
 
 ### 11. References:
-1. A. Saika, M. Hussain, A. Barua, And S. Paul, “Smart Healthcare For
-Disease Diagnoses And Prevention”, An Insight Into Parkinson’s
-Disease: Research And Its Complexities, 1st Ed., pp. 59-80, January
-2020.
-2. “Who Has Parkinson’s?” Parkinson’s Foundation, [Online]: Statistics
-| Parkinson's Foundation. [Accessed: 01-Jan-2023].
-3. Parkinson’s Foundation, Speech Therapy and PD [online]:
-https://www.parkinson.org/library/fact-sheets/speech-therapy.
-4. My.Clevelandclinic.Org/Health/Diseases/9392-Speech-Therapy-For-
-Parkinsons-Disease.
-5. Cynthia M. Fox, Lorraine Olson Ramig, “Vocal Sound Pressure Level
-and Self-Perception of Speech and Voice in Men and Women with
-Idiopathic Parkinson Disease”, American Journal of Speech-Language
-Pathology, vol. 6, no. 2, pp. 85-95, May 1997.
-6. Andrew Ma, Kenneth K Lau, Dominic Thyagarajan, “Voice changes
-in Parkinson’s disease: What are they telling us?”, Journal of Clinical
-Neuroscience, vol. 72, pp. 1-7, Feb 2020.
-7. Ramig, L.O., et al., Comparison of two forms of intensive speech treatment for Parkinson disease. Journal of Speech and Hearing Research, 1995. 38: pp. 1232-1251.
-8. DeLetter, M.P., et al., Levodopa-induced alterations in speech rate in
-advanced Parkinson’s disease.Acta NeurologicaBelgica, 2006. 106: pp. 19-22.
-9. Brin, M.F., et al., Dysphonia due to Parkinson's disease, pharmacological, surgical, and behavioral management perspectives, in Vocal rehabilitation for Medical Speech-Language Pathology, By Clinicians, For Clinicians, C.M. Sapienzaand J. Casper, Editors. 2004, Pro-Ed: Austin, TX. pp. 209-269.
-10. Fox, C.M., et al., Current perspectives on the Lee Silverman Voice
-Treatment Program (LSVT®) for individuals with idiopathic Parkinson's
-disease.American Journal of Speech-Language Pathology, 2002. 11: pp. 111-123.
-11. P. B. Shull and D. D. Damian, “Haptic wearables as sensory replacement, sensory augmentation and trainer – A Review,” Journal of NeuroEngineering and Rehabilitation, vol. 12, no. 1, 2015.
-12. M. D. Andreetta, S. G. Adams, A. D. Dykstra, and M. Jog, “Evaluation of Speech Amplification Devices in Parkinson’s Disease,” American Journal of Speech-Language Pathology, vol. 25, no. 1, pp. 29–45, Feb. 2016, doi:
-https://doi.org/10.1044/2015_AJSLP-15-0008.
-13. Thomas Kehoe, “Device for self-monitoring of vocal intensity”, United
-States Patent 0183964, Aug. 17, 2006.
-14. Kehoe Thomas David, “Biofeedback System for Speech Disorders”,
-United States Patent 5794203, Aug. 11, 1998.
-15. https://learn.adafruit.com/adafruit-qt-py-2040/overview.
+1. Pradip Patil, Prithviraj Lidhade, Sushant Khamkhar, Yashodip Mane, Akshay Dhole, Suraj Patil, “Design and development of CNC plotter machine”, International Research Journal of Modernization in Engineering Technology and Science,Volume:02/Issue:09/September -2020.
+2. Sriranga V Deshpande, P U Karthik, Naveen Kumar D, Dr Vijendra Kumar, Dr K. S Badrinaryan, “Design and fabrication of 3-axis CNC Milling machine”, International Journal of Engineering Research and General Science,Volume 6, Issue 4, July-August, 2018.
+3. Md. Mahedi Hasan, Md. Rokonuzzaman Khan, Abu Tayab Noman, Humayun Rashid, Nawsher Ahmed, Nawsher Ahmed, “Design and Implementation of a Microcontroller Based Low-Cost Computer Numerical Control (CNC) Plotter using Motor Driver Controller”, International Conference on Electrical, Computer and Communication Engineering (ECCE), 7-9 February, 2019.
+4. Mr. Prashil N Patel, Mr. Shreyas D Pavagadhi, Dr.Shailee G Acharya, “Design and Development of Portable 3-Axis CNC Router Machine”, International Research Journal of Engineering and Technology, volume: 06, Issue: 03, Mar 2019.
+5. https://howtomechatronics.com/tutorials/how-to-setup-grbl-control-cnc-machine-with-arduino/
 
 
 
